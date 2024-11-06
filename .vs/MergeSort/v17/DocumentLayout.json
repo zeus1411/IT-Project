@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\N\u0103m3\\IT Project\\MergeSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|d:\\n\u0103m3\\it project\\mergesort\\mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|solutionrelative:mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\Form1.cs",
+              "RelativeDocumentMoniker": "MergeSort\\Form1.cs",
+              "ToolTip": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\Form1.cs [Design]",
+              "RelativeToolTip": "MergeSort\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T12:20:29.036Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
