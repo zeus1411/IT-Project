@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\N\u0103m3\\IT Project\\MergeSort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|d:\\n\u0103m3\\it project\\mergesort\\mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|D:\\N\u0103m3\\IT Project\\MergeSort\\mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|solutionrelative:mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|d:\\n\u0103m3\\it project\\mergesort\\mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|solutionrelative:mergesort\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|D:\\N\u0103m3\\IT Project\\MergeSort\\mergesort\\mergesorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC1CFC8-0449-4734-A7EC-880118BC886D}|MergeSort\\MergeSort.csproj|solutionrelative:mergesort\\mergesorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MergeSorter.cs",
+              "DocumentMoniker": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\MergeSorter.cs",
+              "RelativeDocumentMoniker": "MergeSort\\MergeSorter.cs",
+              "ToolTip": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\MergeSorter.cs",
+              "RelativeToolTip": "MergeSort\\MergeSorter.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:09:04.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\Form1.cs",
+              "RelativeDocumentMoniker": "MergeSort\\Form1.cs",
+              "ToolTip": "D:\\N\u0103m3\\IT Project\\MergeSort\\MergeSort\\Form1.cs",
+              "RelativeToolTip": "MergeSort\\Form1.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:05:30.682Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
