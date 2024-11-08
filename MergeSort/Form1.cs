@@ -18,20 +18,33 @@ namespace MergeSort
         {
             InitializeComponent();
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
-
         }
 
         private void mergeSortButton_Click(object sender, EventArgs e)
         {
-            List<Tuple<int, string>> items = listBox1.Items.Cast<Tuple<int, string>>().ToList();
+            // Lấy danh sách từ ListBox và chuyển đổi sang List<Tuple<int, string>>
+            List<Tuple<int, string>> items = new List<Tuple<int, string>>();
+            foreach (var item in listBox1.Items)
+            {
+                string[] parts = item.ToString().Split(new char[] { ':' }, 2);
+                if (parts.Length == 2 && int.TryParse(parts[0].Trim(), out int number))
+                {
+                    string name = parts[1].Trim();
+                    items.Add(new Tuple<int, string>(number, name));
+                }
+            }
+
+            // Sắp xếp danh sách
             items.Sort((x, y) => x.Item1.CompareTo(y.Item1));
+
+            // Hiển thị danh sách đã sắp xếp trong ListBox
             listBox1.Items.Clear();
             foreach (var item in items)
             {
-                listBox1.Items.Add(item);
+                listBox1.Items.Add($"{item.Item1}: {item.Item2}");
             }
-
         }
+
         private List<Tuple<int, string>> ReadDataFromExcel(string filePath)
         {
             List<Tuple<int, string>> data = new List<Tuple<int, string>>();
@@ -67,9 +80,6 @@ namespace MergeSort
                 string filePath = openFileDialog.FileName;
                 List<Tuple<int, string>> data = ReadDataFromExcel(filePath);
 
-                // Sắp xếp danh sách theo số thứ tự từ bé đến lớn
-                data.Sort((x, y) => x.Item1.CompareTo(y.Item1));
-
                 // Hiển thị kết quả trong ListBox
                 listBox1.Items.Clear();
                 foreach (var entry in data)
@@ -87,7 +97,7 @@ namespace MergeSort
             if (parts.Length == 2 && int.TryParse(parts[0].Trim(), out int number))
             {
                 string name = parts[1].Trim();
-                listBox1.Items.Add(new Tuple<int, string>(number, name));
+                listBox1.Items.Add($"{number}: {name}");
                 txtInput.Clear();
             }
             else
@@ -96,7 +106,4 @@ namespace MergeSort
             }
         }
     }
-    
-
 }
-
